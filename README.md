@@ -1,1 +1,5 @@
-# InceptionNet-pytorch
+# Inception Net using Pytorch
+
+This tutorial will teach you how to implement the original Inception Net proposed in [Going deeper with convolutions](https://arxiv.org/abs/1409.4842) by Szegedy _et al._ using PyTorch. The Inception Net architecture won the ImageNet classification challenge in 2014. If you are new to PyTorch I would recommend going through this [tutorial](https://github.com/Vinaypnaidu/deep-learning-essentials) first. It covers some Deep Learning basics and explains how to build an end-to-end image classification project using the CIFAR-10 dataset.<br>
+
+The architecture of Inception Net is slightly different when compared to normal ConvNets. It uses the **Inception module** with feature concatenations and also has two **Auxiliary classifiers** branching out from the main stem. Hence this project will give you a solid experience of converting a paper to code, and also a good understanding of building models using PyTorch. I would suggest referring the original paper while going through this tutorial. (particularly table 1)
